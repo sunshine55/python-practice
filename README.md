@@ -1,4 +1,5 @@
-python-practice
+Python in Practice
 ===============
 
-Python beginner practice exercises
+* Sessions introduce basic usage sample.
+* Labs provide exercises for practicing.
