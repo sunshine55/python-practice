@@ -1,0 +1,5 @@
+# Ignore backup folders
+*-backup/
+
+# Ignore byproducts
+poetry.lock
