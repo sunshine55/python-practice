@@ -26,11 +26,12 @@ docker exec -it wma2mp3 bash
 
 ### Install Poetry and dependencies
 ```bash
-sudo apt update
-sudo apt install pipx ffmpeg
+apt update
+apt install pipx ffmpeg
 pipx ensurepath
 pipx install poetry
 poetry install
+eval $(poetry env activate)
 ```
 
 ## Usage
