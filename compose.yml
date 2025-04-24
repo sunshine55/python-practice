@@ -1,0 +1,7 @@
+services:
+  yt2mp3:
+    image: python:3.12-slim
+    container_name: yt2mp3
+    volumes:
+      - ./:/workspace:delegated
+    command: tail -f /dev/null
