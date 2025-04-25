@@ -1,5 +1,4 @@
 poetry.lock
 .env
-src/prompts/*
-!src/prompts/*.example
 .vscode/
+__pycache__/

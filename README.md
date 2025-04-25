@@ -36,8 +36,11 @@ eval $(poetry env activate)
 
 ## Usage
 
-WIP
+```bash
+cp src/prompt.txt.example prompt.txt
+python src/main.py prompt
+```
 
 ## Notes
 
-WIP
+https://app.readthedocs.org/projects/python-pytube/downloads/pdf/stable/
