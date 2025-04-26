@@ -44,3 +44,4 @@ python src/main.py prompt
 ## Notes
 
 https://app.readthedocs.org/projects/python-pytube/downloads/pdf/stable/
+https://pypi.org/project/pytubefix

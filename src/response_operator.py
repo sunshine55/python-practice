@@ -1,4 +1,4 @@
-from pytube import YouTube
+from pytubefix import YouTube
 
 
 class ResponseOperator:
@@ -8,6 +8,6 @@ class ResponseOperator:
 
     def get_audio(self):
         yt = YouTube(self.url)
-        audio_stream = yt.streams.filter(file_extension="mp4").first()
+        audio_stream = yt.streams.get_audio_only()
         sanitized_title = self.title.strip().replace(" ", "_")
-        audio_stream.download(filename=f"{sanitized_title}.mp3")
+        audio_stream.download(filename=f"{sanitized_title}.m4a")
