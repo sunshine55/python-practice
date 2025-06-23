@@ -37,8 +37,8 @@ eval $(poetry env activate)
 ## Usage
 
 ```bash
-cp src/prompt.txt.example prompt.txt
-python src/main.py prompt
+cp src/prompt.example prompt.gemini.txt
+python src/main.py prompt.gemini
 ```
 
 ## Notes
